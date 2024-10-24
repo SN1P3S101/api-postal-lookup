@@ -4,6 +4,8 @@
     // Iets waar ik mee bezig ben, en voor nu wil ik dit openbaar maken zodat iedereen dit gemakkelijk kan uitproberen :)
     // Hier is je supergeheime api sleutel: ICT-96PpYACPkT?TEw6MQfmH-e4p21tNR/86FYpeNU8tNSbIpmRDS5-EpGF?5iwA
 
+    // Gegevens geleverd door PDOK, onder de Creative Commons Naamsvermelding 4.0 licentie.
+
     header('Content-Type: application/json');
 
     $key = 'ICT-96PpYACPkT?TEw6MQfmH-e4p21tNR/86FYpeNU8tNSbIpmRDS5-EpGF?5iwA';
@@ -143,7 +145,8 @@
         'postcode' => $postal_combined,
         'plaats' => $adres['woonplaatsnaam'],
         'land' => 'Nederland',
-        'text' => $adres['straatnaam'] . ' ' . $number . ', ' . $postal . ' ' . $adres['woonplaatsnaam']
+        'text' => $adres['straatnaam'] . ' ' . $number . ', ' . $postal . ' ' . $adres['woonplaatsnaam'],
+        'licentie' => 'Gegevens geleverd door PDOK, onder de Creative Commons Naamsvermelding 4.0 licentie.'
     ]);
-    
+
 ?>
