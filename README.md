@@ -98,7 +98,7 @@ De API retourneert een JSON-object met de volgende mogelijke responses:
 
 1. **Clone de repository:**
     ```bash
-    git clone https://github.com/jouwgebruikernaam/api-postal-lookup.git
+    git clone https://github.com/SN1P3S101/api-postal-lookup.git
     ```
 
 2. **Voer de API lokaal uit met PHP:**
